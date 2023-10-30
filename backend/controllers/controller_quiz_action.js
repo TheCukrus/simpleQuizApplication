@@ -33,6 +33,9 @@ controller_quiz_action.post("/start/:id", async (req, res) =>
 
         quiz_state.timer = quiz_timer.duration * 60 * 1000
 
+        //Set a new startDate for the quiz state
+        quiz_state.startDate = new Date()
+
         //Get ramdomized questions using the ramdomizer module
         const questions = await ramdomizer.getRandomQuestion(quizId, quiz_timer.numberOfQuestions)//There in future we can change questions in quiz
 
