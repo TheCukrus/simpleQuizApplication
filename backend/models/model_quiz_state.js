@@ -21,7 +21,7 @@ const quiz_state_schema = new mongoose.Schema({
     started: { type: Boolean, default: false },
     finished: { type: Boolean, default: false },
     timer: { type: Number },
-    startDate: { type: Date, default: Date.now() },
+    startDate: { type: Date},
     result: { type: Array }
 })
 
