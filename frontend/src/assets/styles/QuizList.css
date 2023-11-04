@@ -1,0 +1,39 @@
+/* Style the heading */
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.ql{
+    text-align: center;
+}
+
+/* Style the quiz list */
+.list-group {
+    max-width: 400px;
+    /* Adjust the max width as needed */
+    margin: 0 auto;
+    /* Center the list horizontally */
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+    /* Light gray background on hover */
+}
+
+/* Style the quiz links */
+.list-group-item a {
+    text-decoration: none;
+    color: #000;
+    /* Set the link color */
+}

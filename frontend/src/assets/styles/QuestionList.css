@@ -1,0 +1,55 @@
+.ql {
+    font-size: 1.5rem;
+    /* Adjust the font size as needed */
+    margin-top: 1.5rem;
+    /* Add margin to the top */
+    margin-bottom: 1.5rem;
+    /* Add margin to the bottom */
+    text-align: center;
+}
+
+/* Style the accordion items */
+.accordion-item {
+    background-color: #fff;
+    /* White background color */
+    border: 1px solid #ccc;
+    /* Add a border */
+    margin-bottom: 1rem;
+    /* Add margin at the bottom of each item */
+}
+
+/* Style the accordion headers */
+.accordion-header {
+    background-color: #f8f9fa;
+    /* Light gray background color */
+    color: #333;
+    /* Text color */
+    font-weight: bold;
+    /* Bold text */
+    padding: 1rem;
+    /* Add padding to the header */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+}
+
+/* Style the accordion bodies */
+.accordion-body {
+    padding: 1rem;
+    /* Add padding to the body */
+}
+
+/* Style the list group items inside the accordion body */
+.list-group-item {
+    padding: 0.25rem 0;
+    /* Add padding to the list group items */
+}
+
+/* Style the success variant list group items */
+.list-group-item.success {
+    background-color: #dff0d8;
+    /* Light green background color */
+    color: #3c763d;
+    /* Dark green text color */
+    font-weight: bold;
+    /* Bold text */
+}

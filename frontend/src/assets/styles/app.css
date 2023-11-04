@@ -1,0 +1,15 @@
+.app {
+    position: relative;
+    min-height: 100vh;
+    /* Ensure the content takes at least the full viewport height */
+    margin-bottom: -50px;
+    /* Set a negative margin to account for the footer's height */
+}
+
+/* Push the footer to the bottom */
+.app::after {
+    content: "";
+    height: 50px;
+    /* Set to the height of your footer */
+    display: block;
+}

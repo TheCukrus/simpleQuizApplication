@@ -1,0 +1,12 @@
+.quiz-item {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.quiz-item:hover {
+    background-color: #f8f9fa;
+}
+
+.hm {
+    text-align: center;
+}
